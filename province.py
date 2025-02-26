@@ -29,7 +29,7 @@ while riga != None:
     # print(provincia)
     tdx = tdx.find_next("td")
     residenti = tdx.get_text()
-    residenti = residenti.replace('.', '') #sostituisco il . con vuoto
+    residenti = int(residenti.replace('.', '')) #sostituisco il . con vuoto
     # print(residenti)
     tdx = tdx.find_next("td")
     tdx = tdx.find_next("td")
