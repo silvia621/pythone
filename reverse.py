@@ -1,8 +1,6 @@
 #chiedere il nome del file di input
 nome_file = input("Scrivi il nome del file: ")
 
-
-
 import os
 if os.path.exists(nome_file) :
     # print(f" il file '{nome_file}' esiste")
@@ -16,4 +14,3 @@ if os.path.exists(nome_file) :
     input_file.close()
 else :
     print(f"il file '{nome_file}' non esiste")
-
